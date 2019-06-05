@@ -12,7 +12,6 @@ import (
 // - Huffman,
 // - Run-length encoding
 // -
-
 func main() {
 
 	if len(os.Args) >= 3 {
