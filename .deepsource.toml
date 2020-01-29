@@ -1,6 +1,17 @@
-  version = 1
+version = 1
 
-  [[analyzers]]
-  name = "python"
-  enabled = true
-  runtime_version = "3.x.x"
+test_patterns = [
+  '**/*_test.go'
+]
+
+exclude_patterns = [
+  
+]
+
+[[analyzers]]
+name = 'go'
+enabled = true
+
+
+  [analyzers.meta]
+  import_path = 'github.com/llucie/compression'
